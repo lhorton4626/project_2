@@ -1,0 +1,133 @@
+@charset "UTF-8";
+body {
+	background-color: #C6C6FF;
+	color: #191919;
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	font-size: 16pt;
+	background-image: url("body_background.jpg");
+	background-size: cover;
+	
+}
+#container {
+	width: 768px;
+	height: auto;
+	margin: auto;
+	background-color: white;
+}
+
+header {
+    width: 768px;
+    height: 250px;
+    background-color: #008000;
+    background-image: url("logo_paint.png");
+	background-size: cover;
+}
+/*Float the main so it shows up next to the Aside. Reduce width by 150px so they both line up with the header*/
+main {
+	width: 698px;
+	height: 600px;
+	float: left;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+/*Clear the float so the footer shows up in the right place again*/
+footer {
+    width: 768px;
+    height: 50px;
+    clear: both;
+	background-color: #868686;
+}
+/*Float the Aside so it displays next to main*/
+aside {
+	width: 150px;
+	height: 600px;
+	float: left;
+	background-color: #868686;
+}
+h3 {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	font-size: 18pt
+}
+
+h1 {
+	color: #08488F;
+	font-family: gotham, "Helvetic Neue", Helvetica, Arial, sans-serif;
+	font-family: politica,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 24pt;
+}
+img {
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	float: right;
+}
+article {
+	margin-bottom: 30px;
+}
+p {
+	font-family: canada-type-gibson,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20pt;
+}
+.floatLeft {
+	float: left;
+}nav {
+	width: 768px;
+	height: 50px;
+}
+#container nav li {
+	display: block;
+	list-style-type: none;
+	float: left;
+	width: 60px;
+	margin: 0px 60px 0px 0px;
+	font-family: mama-script, sans-serif; 
+	font-size: 16pt;
+}
+
+
+#container nav ul {
+	margin: auto;
+	width: 480px;
+}
+nav a:link {
+	color: #04A0C0;
+	text-decoration: none;
+}
+nav a:visited {
+	text-decoration: none;
+	color: #4010A7;
+}
+nav a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color: #04A0C0;
+	border-radius: 10px; 
+	padding: 5px;
+}
+nav a:active {
+	text-decoration: none;
+	color: #191919;
+}
+.submit_btn {
+	width: 200px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: #0299B7;
+	color: #ffffff;
+	
+}
+
+.submit_btn:hover {
+	-webkit-box-shadow: 6px 6px 34px 1px #2E2E2E;
+	box-shadow: 6px 6px 34px 1px #2E2E2E;
+}
